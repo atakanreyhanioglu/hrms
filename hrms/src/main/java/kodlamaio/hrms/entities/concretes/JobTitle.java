@@ -9,16 +9,14 @@ import javax.persistence.Table;
 import lombok.Data;
 
 @Entity
-@Table(name="working_positions")
+@Table(name="job_titles")
 @Data
-public class WorkingPosition {
-
-	@Id
-	@GeneratedValue
-	@Column(name="id")
-	private int id;
-	
-	@Column(name="position_name")
-	private String positionName;
-	
+public class JobTitle {
+		@Id
+		@GeneratedValue
+		@Column(name="id")
+		private int id;
+		
+		@Column(name="title")
+		private String title;
 }
