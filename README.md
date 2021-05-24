@@ -8,13 +8,22 @@ N-Katmanlı Solid mimari yapısı ile hazırlanan, SpringBoot kullanılarak CRUD
 yeni nesneler eklenebilir, bütün iş istekleri değiştirilebilir.Yapılacak olanlar eski kodları bozmadan 
 sürekli ekleme yapılabilir.Proje sürdürülebilirlik prensibini yerine getirmektedir.
 ## :books:Katmanlar
-![entities](https://i.ibb.co/2jtmwV7/entities.jpg)
+![entities](https://s3.gifyu.com/images/Data-Access.gif)
 
 ### Entities Katmanı
-**Entities Katmanı**'nda **concretes** concretes klasörü bulunmaktadır.Concretes klasörü veri tabanından 
+**Entities Katmanı**'nda **concretes**  klasörü bulunmaktadır.Concretes klasörü veri tabanından 
 gelen somut nesnelerin özelliklerini tutmak için oluşturulmuştur.
-:file_folder:`concretes`  
+<br> <br>:file_folder:`concretes`  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Candidate.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/entities/concretes/Candidate.java) 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Employer.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/entities/concretes/Employer.java) 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [User.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/entities/concretes/User.java) 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [JobTitle.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/entities/concretes/JobTitle.java)  
+![dataaccesskatmani](https://i.ibb.co/f1cQDbm/Data-Access-2.jpg)
+
+###  Data Access Katmanı
+**Data Access Katmanı**'nda  **abstracts**  klasörü bulunmaktadır.Abstracts klasöründe Jpa Repository kullanılarak 
+CRUD operasyonları Data Erişim Objeleri(DAO) için oluşturulmuştur.
+<br> <br> :file_folder:`abstracts` 
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CandidateDao.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/dataAccess/abstracts/CandidateDao.java)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EmployerDao.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/dataAccess/abstracts/EmployerDao.java)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [JobTitleDao.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/dataAccess/abstracts/JobTitleDao.java)  
