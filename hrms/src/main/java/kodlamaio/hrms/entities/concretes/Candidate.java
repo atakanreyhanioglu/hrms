@@ -2,57 +2,34 @@ package kodlamaio.hrms.entities.concretes;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.PrimaryKeyJoinColumn;
 import javax.persistence.Table;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
+
 @Entity
+@Data
+@EqualsAndHashCode(callSuper = true)
 @Table(name="candidates")
 @AllArgsConstructor
 @NoArgsConstructor
-@PrimaryKeyJoinColumn(name="user_id", referencedColumnName="user_id")
-public class Candidate extends User {
+public class Candidate extends User{
 		
-	
-	@Column(name="first_name")
+	@Column(name="first_name",nullable=false)
 	private String firstName;
 	
-	@Column(name="last_name")
+	@Column(name="last_name",nullable=false)
 	private String lastName;
 	
-	@Column(name="identity_number",unique=true)
+	@Column(name="identity_number",nullable=false)
 	private String identityNumber;
 	
-	@Column(name="birth_year")
+	@Column(name="birth_year",nullable=false)
 	private int birthYear;
-	
-	
-	public String getFirstName() {
-		return firstName;
-	}
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
-	public String getLastName() {
-		return lastName;
-	}
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
-	}
-	public String getIdentityNumber() {
-		return identityNumber;
-	}
-	public void setIdentityNumber(String identityNumber) {
-		this.identityNumber = identityNumber;
-	}
-	public int getBirthYear() {
-		return birthYear;
-	}
-	public void setBirthYear(int birthYear) {
-		this.birthYear = birthYear;
-	}
+
 	
 	
 }

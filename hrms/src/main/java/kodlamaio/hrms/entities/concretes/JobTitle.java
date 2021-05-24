@@ -12,8 +12,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name="job_titles")
 @Data
+@Table(name="job_titles")
 @AllArgsConstructor
 @NoArgsConstructor
 public class JobTitle {
@@ -22,6 +22,9 @@ public class JobTitle {
 		@Column(name="id")
 		private int id;
 		
-		@Column(name="title",unique=true)
+		@Column(name="title",unique=true,nullable=false)
 		private String title;
+		
+	
+		
 }
