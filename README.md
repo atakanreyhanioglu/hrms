@@ -1,7 +1,7 @@
 # hrms
 Human Resource Management System
 
-![bannerResim](https://i.ibb.co/rmrD47s/Data-Access.jpg)
+![bannerResim](https://i.ibb.co/j8FF1hf/Data-Access-3.jpg)
 ## :pushpin:Proje Hakkında
 N-Katmanlı Solid mimari yapısı ile hazırlanan, SpringBoot kullanılarak CRUD işlemlerinin yapıldığı 
 İnsan Kaynakları Yönetim Sistemi Projesidir.Proje içerisinde data kaynakları kolayca değiştirilebilir,
