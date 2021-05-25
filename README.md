@@ -2,6 +2,9 @@
 Human Resource Management System
 
 ![bannerResim](https://i.ibb.co/j8FF1hf/Data-Access-3.jpg)
+![DataBase](https://i.ibb.co/HBZgd4K/Untitled123.png)
+
+
 ## :pushpin:Proje Hakkında
 N-Katmanlı Solid mimari yapısı ile hazırlanan, SpringBoot kullanılarak CRUD işlemlerinin yapıldığı 
 İnsan Kaynakları Yönetim Sistemi Projesidir.Proje içerisinde data kaynakları kolayca değiştirilebilir,
