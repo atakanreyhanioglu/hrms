@@ -18,11 +18,14 @@ sürekli ekleme yapılabilir.Proje sürdürülebilirlik prensibini yerine getirm
 **Entities Katmanı**'nda **concretes**  klasörü bulunmaktadır.Concretes klasörü veri tabanından 
 gelen somut nesnelerin özelliklerini tutmak için oluşturulmuştur.
 <br> <br>:file_folder:`concretes`  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Candidate.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/entities/concretes/Candidate.java) 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [JobAdvertisement.java]
+(https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/entities/concretes/JobAdvertisement.java)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Candidate.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/entities/concretes/Candidate.java) 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [Employer.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/entities/concretes/Employer.java) 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [User.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/entities/concretes/User.java) 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [JobTitle.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/entities/concretes/JobTitle.java)  
 <br>![dataaccesskatmani](https://i.ibb.co/f1cQDbm/Data-Access-2.jpg)
+
 
 ###  Data Access Katmanı
 **Data Access Katmanı**'nda  **abstracts**  klasörü bulunmaktadır.Abstracts klasöründe Jpa Repository kullanılarak 
