@@ -2,7 +2,7 @@
 Human Resource Management System
 
 ![bannerResim](https://i.ibb.co/j8FF1hf/Data-Access-3.jpg)
-<img src="https://i.ibb.co/HBZgd4K/Untitled123.png" width="900" >
+<img src="" width="900" >
 
 
 
