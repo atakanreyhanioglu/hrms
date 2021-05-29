@@ -23,7 +23,7 @@ gelen somut nesnelerin özelliklerini tutmak için oluşturulmuştur.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [User.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/entities/concretes/User.java) 
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [JobTitle.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/entities/concretes/JobTitle.java)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [JobAdvertisement.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/entities/concretes/JobAdvertisement.java)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [City.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/entities/concretes/City.java)
+<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [City.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/entities/concretes/City.java)
 <br>![dataaccesskatmani](https://i.ibb.co/f1cQDbm/Data-Access-2.jpg)
 <br>
 
@@ -35,5 +35,5 @@ CRUD operasyonları Data Erişim Objeleri(DAO) için oluşturulmuştur.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CandidateDao.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/dataAccess/abstracts/CandidateDao.java)  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [EmployerDao.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/dataAccess/abstracts/EmployerDao.java)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [JobTitleDao.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/dataAccess/abstracts/JobTitleDao.java)  
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CityDao.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/dataAccess/abstracts/CityDao.java)  
-<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [JobAdvertisementDao.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/dataAccess/abstracts/JobAdvertisementDao.java)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [CityDao.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/dataAccess/abstracts/CityDao.java)  
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [JobAdvertisementDao.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/dataAccess/abstracts/JobAdvertisementDao.java)  
