@@ -47,3 +47,6 @@ CRUD operasyonları Data Erişim Objeleri(DAO) için oluşturulmuştur.
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [JobTitleService.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/business/abstracts/JobTitleService.java)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [JobTitleCheckService.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/business/abstracts/JobTitleCheckService.java)
 <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:page_facing_up: [JobAdvertisementService.java](https://github.com/atakanreyhanioglu/hrms/blob/master/hrms/src/main/java/kodlamaio/hrms/business/abstracts/JobAdvertisementService.java)
+
+###  Apiden Görüntüler
+![gif](https://i.ibb.co/xq08qTt/odev.gif) 
